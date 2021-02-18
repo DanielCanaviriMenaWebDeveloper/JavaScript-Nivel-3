@@ -48,6 +48,26 @@ function parametros(nombre = "Edgar", apellido = "Tarquino", edad = 33) {
 parametros("Daniela", "Gonzales", 22);
 parametros();
 
+/* Multilineas en ES5 */
+
+let frase1 = "Este mundo lleno de programadores\n";
+let frase2 = "Que alegria es vivir en este mundo\n";
+let frase3 = "Recuerden lo mas valioso es el tiempo";
+
+console.log(frase1, frase2, frase3);
+
+/* Multilineas en ES6 con template string*/
+
+let frase1 = "Este mundo lleno de programadores";
+let frase2 = "Que alegria es vivir en este mundo";
+let frase3 = "Recuerden lo mas valioso es el tiempo";
+
+console.log(`
+"${frase1}
+ ${frase2}
+ ${frase3}"
+`);
+
 
 
 
